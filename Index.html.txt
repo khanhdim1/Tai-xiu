@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop Bán Acc Game - Đột Kích, Liên Quân, Free Fire</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+    header { background: #ff6600; color: white; padding: 15px; text-align: center; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a { color: white; text-decoration: none; padding: 8px 15px; }
+    nav a:hover { background: #555; }
+    .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+    .card { background: white; width: 250px; margin: 15px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .card img { width: 100%; height: 180px; object-fit: cover; }
+    .card h3 { padding: 10px; margin: 0; font-size: 18px; }
+    .card p { padding: 0 10px; font-size: 14px; color: gray; }
+    .price { color: red; font-weight: bold; padding: 10px; }
+    .buy-btn { display: block; background: #28a745; color: white; text-align: center; padding: 10px; text-decoration: none; border-radius: 0 0 8px 8px; }
+    .buy-btn:hover { background: #218838; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>SHOP BÁN ACC GAME GIÁ RẺ</h1>
+    <p>Đột Kích - Liên Quân - Free Fire</p>
+</header>
+
+<nav>
+    <a href="#">Trang Chủ</a>
+    <a href="#">Đột Kích</a>
+    <a href="#">Liên Quân</a>
+    <a href="#">Free Fire</a>
+    <a href="#">Liên Hệ</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <img src="https://i.imgur.com/Lqf8F0M.jpeg" alt="Acc Đột Kích">
+        <h3>Acc Đột Kích VIP</h3>
+        <p>Rank: Siêu cấp | Vũ khí hiếm</p>
+        <div class="price">500.000đ</div>
+        <a class="buy-btn" href="https://zalo.me/0123456789">Mua Ngay</a>
+    </div>
+
+    <div class="card">
+        <img src="https://i.imgur.com/kTJfMba.jpeg" alt="Acc Liên Quân">
+        <h3>Acc Liên Quân Rank Cao</h3>
+        <p>Rank: Cao Thủ | Nhiều skin</p>
+        <div class="price">300.000đ</div>
+        <a class="buy-btn" href="https://zalo.me/0123456789">Mua Ngay</a>
+    </div>
+
+    <div class="card">
+        <img src="https://i.imgur.com/U3CPLRU.jpeg" alt="Acc Free Fire">
+        <h3>Acc Free Fire Kim Cương</h3>
+        <p>Rank: Huyền Thoại | Full đồ</p>
+        <div class="price">200.000đ</div>
+        <a class="buy-btn" href="https://zalo.me/0123456789">Mua Ngay</a>
+    </div>
+</div>
+
+</body>
+</html>
